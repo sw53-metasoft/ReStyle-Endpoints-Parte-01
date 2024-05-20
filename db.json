@@ -1,0 +1,129 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "gonzalo@restyle.com",
+        "password": "gonzalo",
+        "type": "Contracter",
+        "firstName": "Gonzalo",
+        "paternalSurname": "Gonzalez",
+        "maternalSurname": "Alvarez"
+      },
+      {
+        "id": 2,
+        "email": "juan@restyle.com",
+        "password": "juan",
+        "type": "Contracter",
+        "firstName": "Juan",
+        "paternalSurname": "Perez",
+        "maternalSurname": "Garcia"
+      },
+      {
+        "id": 3,
+        "email": "pedro@techelp.com",
+        "password": "pedro",
+        "type": "contracter",
+        "firstName": "Pedro",
+        "paternalSurname": "Garcia",
+        "maternalSurname": "Huaman"
+      },
+      {
+        "id": 4,
+        "email": "alonso@restyle.com",
+        "password": "alonso",
+        "type": "Remodeler",
+        "firstName": "Alonso",
+        "paternalSurname": "Ruiz",
+        "maternalSurname": "Galindo"
+      },
+      {
+        "id": 5,
+        "email": "rafael@restyle.com",
+        "password": "rafael",
+        "type": "Remodeler",
+        "firstName": "Rafael",
+        "paternalSurname": "Tarazona",
+        "maternalSurname": "Rojas"
+      },
+      {
+        "id": 6,
+        "email": "mariana@restyle.com",
+        "password": "mariana",
+        "type": "Remodeler",
+        "firstName": "Mariana",
+        "paternalSurname": "Hernandez",
+        "maternalSurname": "Quintero"
+      }
+    ],
+    "contracters": [
+        {
+          "userID": "1",
+          "id": "1",
+          "firstName": "Gonzalo",
+          "paternalSurname": "Gonzalez",
+          "maternalSurname": "Alvarez",
+          "email": "gonzalo@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Propietario entusiasta busca remodeladora para transformar su hogar en un espacio moderno y acogedor. Busco profesionalismo, creatividad y atención al detalle para cumplir con mis expectativas y mejorar el valor de mi propiedad"
+        },
+        {
+          "userID": "2",
+          "id": "2",
+          "firstName": "Juan",
+          "paternalSurname": "Perez",
+          "maternalSurname": "Garcia",
+          "email": "juan@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Propietario entusiasta busca remodeladora para transformar su hogar en un espacio moderno y acogedor. Busco profesionalismo, creatividad y atención al detalle para cumplir con mis expectativas y mejorar el valor de mi propiedad"
+        },
+        {
+          "userID": "3",
+          "id": "3",
+          "firstName": "Pedro",
+          "paternalSurname": "Garcia",
+          "maternalSurname": "Huaman",
+          "email": "pedro@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Propietario entusiasta busca remodeladora para transformar su hogar en un espacio moderno y acogedor. Busco profesionalismo, creatividad y atención al detalle para cumplir con mis expectativas y mejorar el valor de mi propiedad"
+          
+        }
+    ],
+    "remodelers": [
+        {
+          "userID": "4",
+          "id": 4,
+          "firstName": "Alonso",
+          "paternalSurname": "Ruiz",
+          "maternalSurname": "Galindo",
+          "email": "alonso@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Soy un apasionada de la remodelación y diseño de interiores, comprometido con la excelencia en cada proyecto. Con habilidades técnicas y creativas, busco superar las expectativas de mis clientes, transformando espacios en lugares funcionales y estéticamente atractivos"
+        },
+        {
+          "userID": 5,
+          "id": 5,
+          "firstName": "Rafael",
+          "paternalSurname": "Tarazona",
+          "maternalSurname": "Rojas",
+          "email": "rafael@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Soy un apasionada de la remodelación y diseño de interiores, comprometido con la excelencia en cada proyecto. Con habilidades técnicas y creativas, busco superar las expectativas de mis clientes, transformando espacios en lugares funcionales y estéticamente atractivos"
+        },
+        {
+          "userID": 6,
+          "id": 6,
+          "firstName": "Mariana",
+          "paternalSurname": "Hernandez",
+          "maternalSurname": "Quintero",
+          "email": "mariana@restyle.com",
+          "phone": "1234567890",
+          "subscription": "premium",
+          "description": "Soy un apasionada de la remodelación y diseño de interiores, comprometido con la excelencia en cada proyecto. Con habilidades técnicas y creativas, busco superar las expectativas de mis clientes, transformando espacios en lugares funcionales y estéticamente atractivos"
+        }
+    ]
+}
